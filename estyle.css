@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202020;
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+aside {
+    grid-column: span 4; /*aqui dividimos la pantalla, 4 columnas para la barra lateral*/
+    display: flex;  /*siempre que coloco flex direction tngo que indicar que es display flex*/
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+  color: white;
+}
+
+.contenido_derecha {
+    grid-column: span 96; /*aqui dividimos la pantalla, y 96 columnas para la parte derecha de la pantalla*/
+}
+
+nav {
+    display:flex; /*se coloca automaticamente una fila*/
+    /*justify-content: space-between; /*esto lo coloco cuando quiero que la barra buscadora este lo mas alejado posible de la lupa*/
+    align-items: center;  
+}
+
+
+.aside_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*alinea elementos vertical u horizontalmente*/
+    justify-content: center;
+    font-size: 12px;
+    /*margin-bottom: 7px;*/
+    text-align: center; /*alinea el texto*/
+    align-content: center;
+
+} 
+
+
+
+.aside_col2{
+  display: flex;
+  margin-bottom: 7px;
+  align-content: center;
+  align-items: center; /*alinea elementos vertical u horizontalmente*/
+  justify-content: center;
+  
+ 
+}
+ 
+.aside_col3{
+  display: flex;
+  align-items: center; /*alinea elementos vertical u horizontalmente*/
+  justify-content: center;
+  margin-left: 200px;
+
+}
+
+
+.aside_general{
+  /*justify-content: center;
+  align-content:center;*/
+  text-align: center;
+  /*align-items: center;*/
+  align-content:center; 
+  font-size: 15px;
+  height: 35px;
+  padding: 25;
+  margin-bottom: 10px;
+}
+
+.aside_col4{
+  display: inline-block;
+  margin-bottom: 10px; 
+}
+
+.aside_col5{
+  display: inline-block; 
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.aside_col6{
+  display: inline-block; 
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.aside_col7{
+  display: inline-block; 
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.aside_col8{
+  display: inline-block; 
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.aside_col9{
+  display: inline-block;  
+  margin-left: 15px;
+  margin-bottom: 10px;
+  justify-content: center;
+  
+}
+
+
+.fila1{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 20px;
+  
+}
+
+.fila2{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.img{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#Buscador{
+    background-color: white;
+    width: 450px;
+    height: 25px;
+}
+
+
+button:hover { 
+  background-color: rgb(67, 174, 216);
+}
+
+.separacion{
+  margin-top: 20px;
+}
+
+.separacion2{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.separacion3{
+  margin-top: 20px;
+}
+
+.separacion4{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
